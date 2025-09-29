@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset dasar */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fcd507;  /* Kuning */
+      padding: 10px 20px;
+    }
+
+    .header-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .user-logo {
+      width: 48px;
+      height: 48px;
+      margin-right: 10px;
+    }
+
+    .username {
+      font-size: 16px;
+      color: #333;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .hero-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .search-bar {
+      display: inline-flex;
+      margin-bottom: 20px;
+    }
+
+    .search-input {
+      padding: 10px;
+      width: 300px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .search-button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    .search-button:hover {
+      background-color: #0056b3;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    /* Popular Items Section */
+    .popular-section {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .popular-title {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .product-item {
+      text-align: center;
+    }
+
+    .product-item img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product-name {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #fcd507;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .footer-icon {
+      width: 43px;
+      height: 44px;
+    }
+  </style>
+  <title>Barakos.com</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-title">BARAKOS.COM</div>
+    <div class="user-info">
+      <img
+        src="./assets/ba4351917b97cde86bec5d86f1fd549b.svg"
+        alt="User Logo"
+        class="user-logo"
+      />
+      <p class="username">Andrian Saputra</p>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <h1 class="hero-title">APA YANG ANDA BUTUHKAN?</h1>
+    <div class="search-bar">
+      <input type="text" placeholder="Apa yang anda cari?" class="search-input" />
+      <a href="listProducts.html">
+        <button class="search-button">SEARCH</button>
+      </a>
+    </div>
+    <img
+      src="./assets/a1d836c7f9dba509208d43124ffae22e.jpg"
+      alt="Background"
+      class="hero-image"
+    />
+  </section>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Popular Items Section -->
+    <section class="popular-section">
+      <h3 class="popular-title">YANG PALING DICARI</h3>
+      <div class="product-grid">
+        <div class="product-item">
+          <img src="./assets/kompor-gas.jpg" alt="Kompor Gas" />
+          <p class="product-name">KOMPOR GAS</p>
+        </div>
+        <div class="product-item">
+          <img src="./assets/blender.jpg" alt="Blender" />
+          <p class="product-name">BLENDER</p>
+        </div>
+        <div class="product-item">
+          <img src="./assets/microwave.jpg" alt="Microwave" />
+          <p class="product-name">MICROWAVE</p>
+        </div>
+        <div class="product-item">
+          <img src="./assets/air-fryer.jpg" alt="Air Fryer" />
+          <p class="product-name">AIR FRYER</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <img
+      src="./assets/34ab16118ddbcf50e27e9bc72aaefe4d.svg"
+      alt="Footer Icon"
+      class="footer-icon"
+    />
+  </footer>
+
+</body>
+</html>
