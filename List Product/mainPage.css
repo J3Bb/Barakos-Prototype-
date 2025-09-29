@@ -1,0 +1,371 @@
+.c_frame10-frame {
+  width: 100%;
+  /* max-width: 1440px; */
+  box-sizing: border-box;
+}
+
+.c_frame10-frame1,
+.c_frame10-instance {
+  width: 100%;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+
+.c_frame10-frame1 {
+  overflow: hidden;
+  max-width: 1440px;
+}
+
+.c_frame10-instance {
+  gap: 48px;
+  display: flex;
+  opacity: .800000011920929;
+  padding: 64px;
+  position: relative;
+  max-width: 1200px;
+}
+
+.c_frame10-frame2 {
+  max-width: 1072px;
+}
+
+.c_frame10-frame2,
+.c_frame10-rectangle,
+.c_frame10-vector {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+}
+
+.c_frame10-rectangle {
+  filter: blur(10px);
+  max-width: 1092px;
+}
+
+.c_frame10-vector {
+  max-width: 1440px;
+  box-shadow: 0 2px 39.900001525878906px 0 rgba(0,0,0,.25);
+}
+
+.c_frame10-text,
+.c_frame10-text01 {
+  /* margin-top: 0; */
+  text-align: center;
+  /* margin-bottom: 0; */
+  background: url("./assets/a1d836c7f9dba509208d43124ffae22e.jpg");
+  background-size: cover;
+  width: 1092px;
+  height: 369px;
+  line-height: 369px;
+}
+
+.c_frame10-text {
+  width: 100%;
+  /* max-width: 872px; */
+  min-height: auto;
+  color: white;
+}
+
+.c_frame10-text01 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-family: "Baloo Bhai",sans-serif;
+  font-weight: 400;
+  line-height: 76px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_frame10-text02 {
+  width: 100%;
+  max-width: 590px;
+  margin-top: 0;
+  min-height: 112px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.c_frame10-text03 {
+  color: black;
+  font-size: 48px;
+  font-style: normal;
+  font-family: "Baloo Bhai",sans-serif;
+  font-weight: 400;
+  line-height: 76px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_frame10-text03,
+.c_frame10-text04,
+.c_frame10-text05 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.c_frame10-text04 {
+  width: 100%;
+  max-width: 590px;
+  min-height: 112px;
+}
+
+.c_frame10-text05 {
+  color: black;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Baloo 2",sans-serif;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_frame10-instance1,
+.c_frame10-instance2 {
+  width: 100%;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.c_frame10-instance1 {
+  overflow: hidden;
+  max-width: 48px;
+  flex-direction: column;
+}
+
+.c_frame10-instance2 {
+  gap: 12px;
+  display: flex;
+  position: relative;
+  max-width: 515px;
+}
+
+.c_frame10-frame3,
+.c_frame10-instance3 {
+  width: 100%;
+  max-width: 414px;
+  box-sizing: border-box;
+}
+
+.c_frame10-frame3 {
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  position: relative;
+  min-width: 240px;
+  border-top: 1px solid #d9d9d9;
+  align-items: center;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  border-radius: 8px 8px 8px 8px;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+
+.c_frame10-text06,
+.c_frame10-text07 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.c_frame10-text06 {
+  width: 100%;
+  max-width: 100%;
+  min-height: auto;
+}
+
+.c_frame10-text07 {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Inter",sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_frame10-instance4 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: relative;
+  max-width: 89px;
+  border-top: 1px solid #2c2c2c;
+  box-sizing: border-box;
+  align-items: center;
+  border-left: 1px solid #2c2c2c;
+  border-right: 1px solid #2c2c2c;
+  border-bottom: 1px solid #2c2c2c;
+  border-radius: 8px 8px 8px 8px;
+  justify-content: center;
+  background-color: #2c2c2c;
+}
+
+.c_frame10-text08,
+.c_frame10-text09 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.c_frame10-text08 {
+  width: 100%;
+  max-width: auto;
+  min-height: auto;
+}
+
+.c_frame10-text09 {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Inter",sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_frame10-instance5 {
+  width: 100%;
+  display: flex;
+  padding: 8px 16px 4px;
+  position: relative;
+  max-width: 284px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-radius: 8px 8px 8px 8px;
+  justify-content: flex-start;
+}
+
+.c_frame10-instance6 {
+  width: 100%;
+  max-width: 166px;
+  box-sizing: border-box;
+}
+
+.c_frame10-text10,
+.c_frame10-text11 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.c_frame10-text10 {
+  width: 100%;
+  max-width: auto;
+  min-height: auto;
+}
+
+.c_frame10-text11 {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Inter",sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_frame10-frame4,
+.c_frame10-frame5,
+.c_frame10-vector1 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 43px;
+}
+
+.c_frame10-frame4,
+.c_frame10-frame5 {
+  max-width: 512px;
+  max-height: 387px;
+}
+
+.c_frame10-frame5 {
+  max-height: 512px;
+}
+@media (max-width: 240px) {
+  
+  .c_frame10-frame3 {
+    width: 100%;
+    min-width: auto;
+  }
+  ;
+}
+
+.background {
+  background-color: rgb(249, 210, 82); /* Warna fixed */
+  display: flex; /* Menjaga teks tetap sejajar vertikal */
+  align-items: center; /* Teks sejajar secara vertikal */
+  justify-content: flex-start; /* Membuat teks sejajar ke kiri */
+  width: 100%; /* Memastikan elemen mencakup lebar penuh */
+  height: 163.9px; /* Sama dengan tinggi gambar vector */
+  position: relative; /* Pastikan posisi relatif terhadap elemen lainnya */
+  padding-left: 20px; /* Tambahkan jarak dari tepi kiri */
+}
+
+.c_frame17-text01 {
+  font-family: 'Roboto', sans-serif; /* Contoh font modern */
+  font-size: 28px; /* Ukuran teks lebih besar */
+  font-weight: 500; /* Berat sedang */
+  color: #333333; /* Gunakan warna abu-abu gelap untuk kesan elegan */
+  letter-spacing: 1px; /* Memberi jarak antar huruf */
+}
+
+.header {
+  display: flex; /* Mengaktifkan Flexbox */
+  align-items: center; /* Menyelaraskan teks dan logo secara vertikal */
+  gap: 10px; /* Memberikan jarak antara teks dan logo */
+}
+
+.c_frame17-text01 {
+  font-family: 'Poppins', sans-serif; /* Font untuk teks */
+  font-size: 24px; /* Ukuran teks */
+  font-weight: bold; /* Tebal teks */
+  color: black; /* Warna teks */
+  margin: 0; /* Menghapus margin default */
+}
+
+.user-logo {
+  width: 48px; /* Ukuran logo */
+  height: 48px;
+  float: right;
+}
+
+.header {
+  position: relative; /* Container harus diatur sebagai posisi relatif */
+  background-color: #FFC300; /* Tambahkan background jika perlu */
+  padding: 0 20px;
+  height: 60px;
+}
+
+.c_frame17-text01 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.user-logo {
+  position: absolute; 
+  right: 50px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  width: 48px; 
+  height: 48px;
+}
